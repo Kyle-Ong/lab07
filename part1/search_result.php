@@ -5,8 +5,8 @@
 </head>
 <body>
     <?php
-    if (isset($_GET['model'])) {
-    $model = mysqli_real_escape_string($conn, $_GET['model']);
+    if (isset($_GET['Model'])) {
+    $model = mysqli_real_escape_string($conn, $_GET['Model']);
     $sql = replace this with the search query.
     $result = mysqli_query($conn, $sql);
 
